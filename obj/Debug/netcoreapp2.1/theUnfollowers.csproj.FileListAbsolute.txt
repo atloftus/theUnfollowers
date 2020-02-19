@@ -1,0 +1,10 @@
+C:\Users\AlexanderLoftus\source\repos\theUnfollowers\bin\Debug\netcoreapp2.1\theUnfollowers.deps.json
+C:\Users\AlexanderLoftus\source\repos\theUnfollowers\bin\Debug\netcoreapp2.1\theUnfollowers.runtimeconfig.json
+C:\Users\AlexanderLoftus\source\repos\theUnfollowers\bin\Debug\netcoreapp2.1\theUnfollowers.runtimeconfig.dev.json
+C:\Users\AlexanderLoftus\source\repos\theUnfollowers\bin\Debug\netcoreapp2.1\theUnfollowers.dll
+C:\Users\AlexanderLoftus\source\repos\theUnfollowers\bin\Debug\netcoreapp2.1\theUnfollowers.pdb
+C:\Users\AlexanderLoftus\source\repos\theUnfollowers\obj\Debug\netcoreapp2.1\theUnfollowers.csprojAssemblyReference.cache
+C:\Users\AlexanderLoftus\source\repos\theUnfollowers\obj\Debug\netcoreapp2.1\theUnfollowers.AssemblyInfoInputs.cache
+C:\Users\AlexanderLoftus\source\repos\theUnfollowers\obj\Debug\netcoreapp2.1\theUnfollowers.AssemblyInfo.cs
+C:\Users\AlexanderLoftus\source\repos\theUnfollowers\obj\Debug\netcoreapp2.1\theUnfollowers.dll
+C:\Users\AlexanderLoftus\source\repos\theUnfollowers\obj\Debug\netcoreapp2.1\theUnfollowers.pdb
