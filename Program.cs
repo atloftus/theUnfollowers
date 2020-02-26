@@ -31,23 +31,31 @@ namespace theUnfollowers
             string[] lines = File.ReadAllLines(@"C:\Users\AlexanderLoftus\Desktop\following.txt");
             List<string> userURLS = new List<string>();
             bool write = false;
-
+            int counter = 1;
+            userURLS.Add(@"1.) ");
             foreach (string line in lines)
             {
                 if (write)
                 {
                     userURLS.Add(@"https://www.instagram.com/" + line.Trim());
-                    string testing = @"https://www.instagram.com/" + line.Trim() + @"/following/?hl=en";
                     write = false;
+                    if ((counter % 10) == 0)
+                    {
+                        userURLS.Add(@"           ");
+                        userURLS.Add(((counter / 10) + 1).ToString() + @".) ");
+                    }
+
+                    counter++;
                 }
 
                 if (line.Contains("profile picture"))
                 {
                     write = true;
                 }
+               
             }
 
-            File.WriteAllLines(@"C:\Users\AlexanderLoftus\Desktop\following_OUTPUT2.txt", userURLS);
+            File.WriteAllLines(@"C:\Users\AlexanderLoftus\Desktop\FollowingList_26MAR2019.txt", userURLS);
             return userURLS;
         }
     }
